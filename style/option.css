@@ -1,0 +1,308 @@
+/*----------------------------------------------------
+    Message Tip
+*/
+
+#msg-div {
+  position:absolute;
+  left:50%;
+  top:10px;
+  width:400px;
+  margin-left:-200px;
+  z-index:20000;
+}
+#msg-div .msg {
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  background: #F6F6F6;
+  border: 2px solid #cccccc;
+  margin-top: 2px;
+  padding: 10px 15px;
+  color: #555;
+}
+#msg-div .msg h3 {
+  margin: 0 0 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#msg-div .msg p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#msg-div .msg hr {
+  border-top-color: #cccccc;
+}
+
+#msg-div .success {
+  color: #0c0303;
+  background-color: #42e3ff70;
+  border-color: #000000;
+}
+#msg-div .success hr {
+  border-top-color: #000000;
+}
+#msg-div .success .link {
+  color: #000000;
+}
+#msg-div .info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+#msg-div .info hr {
+  border-top-color: #a6e1ec;
+}
+#msg-div .info .link {
+  color: #245269;
+}
+#msg-div .warning {
+  color: #0c0303;
+  background-color: #f8fc8f;
+  border-color: #b5b77e;
+}
+#msg-div .warning hr {
+  border-top-color: #f7e1b5;
+}
+#msg-div .warning .link {
+  color: #66512c;
+}
+#msg-div .danger {
+  color: #0c0303;
+  background-color: #f993b5;
+  border-color: #ad6980;
+}
+#msg-div .danger hr {
+  border-top-color: #e4b9c0;
+}
+#msg-div .danger .link {
+  color: #843534;
+}
+* {
+
+    font-size: 11px;
+}
+.anybutton {
+    width: 48px !important;
+    height: 48px !important;
+    padding: 4px !important;
+    -webkit-mask-size: 40px 40px !important;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-origin: content;
+
+}
+.setfontfield
+{
+    font-size: 15px;
+	font-weight: bold;
+} 
+.strike-through-row {
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(transparent 7px,#6F6B6B 7px,#6F6B6B 9px,transparent 9px);
+    background-image: -moz-linear-gradient(transparent 7px,#6F6B6B 7px,#6F6B6B 9px,transparent 9px);
+    background-image: -ms-linear-gradient(transparent 7px,#6F6B6B 7px,#6F6B6B 9px,transparent 9px);
+    background-image: -o-linear-gradient(transparent 7px,#6F6B6B 7px,#6F6B6B 9px,transparent 9px);
+    background-image: linear-gradient(transparent 7px,#6F6B6B 7px,#6F6B6B 9px,transparent 9px);
+}
+.thumb-wrap > div{
+	cursor: pointer;
+    height: 100px;
+    width: 240px;
+    float: left;
+}
+.layout-wrap > div{
+	cursor: pointer;
+    height: 80px;
+    width: 150px;
+    float: left;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	background: #F6F6F6;
+	border: 2px solid #cccccc;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	color: #555;
+}
+.custom-gridPerformance .x-column-header-inner .x-column-header-text {
+    white-space: normal;
+}
+.custom-gridrowcolumn .x-grid-cell-inner {
+    text-align: center; !important;
+	vertical-align : center;
+}
+.grid-header-colvertical .x-column-header-text {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    
+    /* transform doesn't work on inline elements */
+    display: inline-block;
+    
+    /* need to hard code a height for this to work */
+    /* you could use Ext.util.TextMetrics if you needed to dynamically determine the text size */
+    height: auto;
+}
+
+.x-ie8 .grid-header-phone .x-column-header-text {
+    /* IE8 doesn't have css transform */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+.fieldhijau{
+    background-image:none;
+    background-color:#aed581;
+}
+.fieldorange{
+    background-image:none;
+    background-color:#ff6f00;
+}
+.fieldbiru{
+    background-image:none;
+    background-color:#82b1ff;
+}
+.fieldlock{
+    background-image:none;
+    background-color:#90CAF9;
+}
+.fieldinput{
+    background-image:none;
+    background-color:rgb(255, 245, 157);
+}
+.fieldcream{
+    background-image:none;
+    background-color:#ffcc80;
+}
+.grid-row-span .x-grid3-row {
+    border-bottom: 0;
+}
+.grid-row-span .x-grid3-col {
+    border-bottom: 1px solid #ededed;
+}
+.grid-row-span .row-span {
+    border-bottom: 1px solid #fff;
+}
+.grid-row-span .row-span-first {
+    position: relative;
+}
+.grid-row-span .row-span-first .x-grid3-cell-inner {
+    position: absolute;
+}
+.grid-row-span .row-span-last {
+    border-bottom: 1px solid #ededed;
+}
+.formula .x-grid-cell { 
+    background-color: #ffd54f; 
+    color: #000000;
+	font-weight: bold;
+} 
+.val-up { 
+    background: url(icon/up.ico) no-repeat 2px 1px; 
+    padding-left: 16px; 
+} 
+.val-dot { 
+    background: url(icon/icon/dot.ico) no-repeat 2px 1px; 
+	background-position: right center; 
+    padding-left: 20px; 
+} 
+.val-down { 
+    background: url(icon/down.ico) no-repeat 2px 1px; 
+    padding-left: 16px; 
+}
+.row-blue .x-grid-cell { 
+    color: #2979ff; 
+} 
+.row-red .x-grid-cell { 
+    color: #FF0000; 
+}
+.fieldbold { 
+    font-weight: bold;
+}
+.avatar {vertical-align: middle;width: 50px; height: 50px; border-radius: 50%;}
+.meetroom-jam {
+	font-weight: bold;
+	font-size:18px;
+}
+.meetroom-title {
+	font-weight: bold;
+	font-size:24px;
+}
+.meetroom-desc {
+	font-weight: bold;
+	font-size:12px;
+}
+.meetroom-room {
+	background-color: #ffd54f;
+	font-weight: bold;
+	font-size:18px;
+}
+.meetroom-roomfree {
+	background-color: #aed581;
+	font-weight: bold;
+	font-size:18px;
+}
+.grid-header-rotate .x-column-header-text {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+	-webkit-transform: rotate(-60deg);     
+	-moz-transform: rotate(-60deg);     
+	-o-transform: rotate(-60deg);    
+	-ms-transform: rotate(-60deg); /* IE  */  
+	
+}
+.x-surface  tspan {
+    cursor: inherit;
+}
+.emp_layout {
+	vertical-align: middle;width: 74px; height: 74px; border-radius: 100%;
+}
+.forclock
+{
+    font-size: 11px;
+	font-weight: bold;
+	padding-bottom:3px;
+}
+.fieldset_color {
+    background-color: #ffffff  !important;
+    color: #900; 
+}
+.x-panel-default-framed{
+    border-width: 2px;
+}
+.gridrow-red .x-grid-cell { 
+    background-color: #f19393; 
+    color: #000000; 
+} 
+.x-grid-row .column-yellow { 
+    background-color:rgb(255, 245, 157);
+}
+.x-grid-row .column-hijau { 
+    background-color: #a3f2b1;
+}
+.x-grid-row .column-biru { 
+    background-color: #8fd1fd;
+}
+.x-grid-row .column-abu { 
+    background-color: #e4e4fa;
+}
+/* Warna background untuk kolom dengan kelas 'column-yellow' saat dipilih */
+.x-grid-item-selected .x-grid-cell{
+    background-color: inherit !important; /* Sesuaikan dengan warna seleksi yang Anda inginkan */
+}
+/* Warna background untuk kolom dengan kelas 'column-yellow' saat hover */
+.x-grid-item-over .x-grid-cell {
+    background-color: #aeaeae;
+    /*background-color: inherit !important; Sesuaikan dengan warna seleksi yang Anda inginkan */
+    color: #000000 !important;   
+}
+.x-grid-row .gridrow-hijau { 
+    background-color: #a8f8ae;
+}
+.x-grid-row .gridrow-merah { 
+    background-color: #faa37e;
+}
+.warning-cell { 
+    background: url(/static/lib/silk/user.png) no-repeat 2px 1px; 
+    padding-left: 16px; 
+}
