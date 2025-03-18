@@ -17,9 +17,9 @@ Ext.onReady(function () {
     base_url: currentDomain,
     download_url: currentDomain + "z_download",
     image_url: currentDomain + "/plb_warehouse/document/images/",
-    service_main: currentDomain + "/plb_warehouse/apservice/",
-    service_url: currentDomain + "/plb_warehouse/apservice/auth",
-    service_api: currentDomain + "/plb_warehouse/apservice/",
+    service_main: currentDomain + "/plb_warehouse/apservice/public/",
+    service_url: currentDomain + "/plb_warehouse/apservice/public/auth",
+    service_api: currentDomain + "/plb_warehouse/apservice/public/",
   });
 
   Ext.application({

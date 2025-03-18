@@ -10,6 +10,6 @@ Route::get('/check_db', [C_home::class, 'check_db']);
 Route::get('/z_download/{filename}', [C_home::class, 'download_file']);
 Route::post('/dashboard/dashboardguests', [C_home::class, 'dashboardguests']);
 Route::middleware(['jwt'])->group(function () {
-Route::post('/reload', [C_home::class, 'reload']);
-Route::post('/{A}/{B}', [C_home::class, 'general']);
+    Route::post('/reload', [C_home::class, 'reload']);
+    Route::post('/{A}/{B}', [C_home::class, 'general']);
 });
